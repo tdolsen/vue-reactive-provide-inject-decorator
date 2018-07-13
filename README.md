@@ -1,8 +1,8 @@
-# vue-reactive-provide-inject-decorators
+# (:heavy_exclamation_mark: alpha version) vue-reactive-provide-inject-decorators
 
 > ECMAScript / TypeScript decorators for reactive provide/inject dependency injector for class-style Vue components.
 
-### Warning
+### :warning: Warning
 
 As noted in the [Vue API documentation](https://vuejs.org/v2/api/#provide-inject) is `provide` and `inject` intended for use in advanced plugin / component libraries, and use in generic applications is strongly discouraged. They are also intentionally NOT reactive in the Vue API, and making them reactive is most certainly to be considered a hack.
 
@@ -45,7 +45,7 @@ export default class Descendant extends Vue {
 </script>
 ```
 
-**`@ReactiveProvide`** is used on ancestor components that shouldmake some value available to all descendants.
+**`@ReactiveProvide`** is used in ancestor components on properties that should be made available for injection into all descendants.
 
 ```vue
 <template>
