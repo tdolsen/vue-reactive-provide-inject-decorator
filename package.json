@@ -1,0 +1,42 @@
+{
+	"name": "vue-reactive-provide-inject-decorators",
+	"version": "1.0.0-alpha.1",
+	"description": "ECMAScript / TypeScript decorators for reactive provide/inject dependency injector for class-style Vue components",
+	"keywords": [
+		"vue",
+		"reactive",
+		"provide",
+		"inject",
+		"decorators",
+		"babel",
+		"typescript"
+	],
+	"homepage": "https://github.com/tdolsen/vue-reactive-provide-inject-decorators#readme",
+	"author": "Torkild Dyvik Olsen",
+	"license": "MIT",
+	"main": "dist/vue-reactive-provide-inject-decorators.js",
+	"types": "lib/index.d.ts",
+	"files": [
+		"dist",
+		"lib"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tdolsen/vue-reactive-provide-inject-decorators.git"
+	},
+	"bugs": {
+		"url": "https://github.com/tdolsen/vue-reactive-provide-inject-decorators/issues"
+	},
+	"scripts": {
+		"clean": "rimraf ./lib",
+		"build:ts": "tsc -p ."
+	},
+	"dependencies": {
+		"vue-class-component": "^6.2.0"
+	},
+	"devDependencies": {
+		"rimraf": "^2.6.2",
+		"typescript": "^2.9.2",
+		"vue": "^2.5.16"
+	}
+}
