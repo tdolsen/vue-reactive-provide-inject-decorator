@@ -1,5 +1,7 @@
 # (:heavy_exclamation_mark: alpha version) vue-reactive-provide-inject-decorators
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tdolsen/vue-reactive-provide-inject-decorator.svg)](https://greenkeeper.io/)
+
 > ECMAScript / TypeScript decorators for reactive provide/inject dependency injector for class-style Vue components.
 
 ### :warning: Warning
